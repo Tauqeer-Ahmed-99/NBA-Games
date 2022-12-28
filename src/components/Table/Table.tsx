@@ -61,7 +61,10 @@ const Table = ({
   };
 
   return (
-    <Container className="p-0 d-flex justify-content-end flex-column">
+    <Container
+      className="p-0 d-flex justify-content-end flex-column"
+      style={{ minWidth: "44rem" }}
+    >
       <Container
         className="p-0 d-flex justify-content-end"
         style={{ marginTop: "2rem", marginBottom: "-1.5rem" }}
